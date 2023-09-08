@@ -2,6 +2,29 @@
     margin: 0;
     padding: 0;
 }
+
+.section-title{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.description{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.btn-primary{
+    color: white;
+    padding: 13px 20px;
+    background-color: red;
+    border-radius: 3px;
+    border: 0;
+    margin-top: 20px;
+}
+/* main section related styles */
+main section{
+    margin-top: 20px;
+}
 /* nav related styles */
 
 nav{
@@ -9,21 +32,52 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 12px;
+    padding: 18px;
+    color: white;
 }
 
 .logo img{
-    width: 200px;
+    width: 100px;
     padding: 5px;
 }
 
 .menu ul{
     display: flex;
-    gap: 50px;
-    color: white;
     list-style: none;
+}
+.menu ul li{
     font-size: 18px;
+    margin-right: 17px;
     font-weight: 400;
+    padding: 5px;
 }
 
-/*  */
+/* banner related styles */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('images/background.png'), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    height: 100vh;
+    color: white;
+}
+
+
+/* about section related styles */
+.img{
+    width: 300px;
+}
+
+.about-title{
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+    font-size: 32px;
+    font-weight: 700;
+}
