@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav related styles */
+
+nav{
+    background-color: #424141;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+.logo img{
+    width: 200px;
+    padding: 5px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 50px;
+    color: white;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*  */
